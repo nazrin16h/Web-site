@@ -1,0 +1,527 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+.logo1 img{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+.number{
+    border-radius:18px ;
+    padding: 14px;
+    border: none;
+    margin: 15px;
+    
+}
+.number > i{
+    color: #ff4500;
+}
+.container2{
+    margin: 30px;
+    
+    
+}
+.main-top{
+    background-color: #ff6600;
+    color:white ;
+    text-align: center;
+    margin: 30px ;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 10px auto;  
+}
+.main-top img{
+    overflow: hidden;
+    width: 70%;
+    height: 250px;
+}
+.main-top > h2{
+    margin: 25px;
+}
+.main-top >p{
+    margin: 15px;
+}
+.maincenter{
+    padding:35px ;
+}
+.center img{
+    margin-right:70px;
+}
+.etrafli{
+    border-radius:20px ;
+    padding:13px 19px 13px 19px;
+    border: 1px solid white;
+    margin: 18px;
+    background-color: rgba(240, 255, 255, 0);
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.chat{
+    position: fixed;
+    right:0;
+    margin: 30px ;
+    bottom:0;
+    
+    
+}
+.chat i{
+    color:#ff6400
+}
+.people{
+    position: fixed;
+    margin: 10px;
+    bottom:0;
+    left: 0;
+    border-radius:25px ;
+    padding: 14px;
+    border:none;
+    margin: 15px;
+    background-color: orangered;
+}
+.chat{
+    border-radius:18px ;
+    padding: 14px;
+    margin: 15px;
+    background-color: white;
+    border: none;
+    font-size: 30px;
+}
+.chat:hover{
+    box-shadow: #000000;
+}
+.main{
+    padding:-5px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    flex-direction: row;
+    
+
+}
+.card{
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    padding:25px 0px;
+    width: 45%;
+    margin: 0px auto;
+    text-align: center;
+    
+}
+.card h2{
+    font-size: 14px;
+    margin:10px auto;
+}
+.cardnum{
+    color: #ff6400;
+    font-size: 32px;
+    margin:10px;
+}
+.card p{
+    font-size: 10px;
+}
+.sifaris{
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff6400;
+    color:white;
+    margin:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 12px;
+}
+.sifaris:hover{
+    box-shadow: 0 10px 10px -10px rgba(255,107,0,.51)
+
+}
+.sec2img img{
+    height:50vh;
+    width: auto;
+    position:relative;
+    left:-15px; 
+    top: -50px;
+
+}
+
+.container22{
+    background-color:#FAFAFA ;
+    margin:30px;
+    border-radius: 10px;
+    
+}
+.content {
+    margin: 20px;
+}
+.content h2{
+    color:#ff6400;
+    font-size: 20px;
+    padding: 15px;
+}
+.content p{
+    font-size: 12px;
+    padding: 15px;
+}
+.etrafli2{
+    padding: 14px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff6400;
+    color:white;
+    margin:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 12px;
+    width: 80vw ;
+}
+.Partnyorlar{
+    margin:0px 10px 0px 10px;
+    padding: 14px 30px;
+    border-radius: 25px;
+    background: #ffff;
+    color: #969696;
+    border: 1px solid;
+    margin: 10px;
+}
+.container3{
+    background-color:#FAFAFA ;
+    margin:30px ;
+    padding-top:30px ;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.ubank{
+    color: #ff6400;
+    margin: 15px;
+    
+}
+.tetbiq{
+    background: #96969629;
+    border-radius: 5px;
+    border: 1px solid;
+    flex-direction:row;
+    color: rgba(0, 0, 0, 0.403);
+    margin: 4px;;
+}
+.icons{
+    margin: 5px;
+}
+.content3 p{
+    margin:8px;
+    color: #000000;
+    font-size: 12px;
+    
+
+}
+.haqqinda{
+    margin:4px;
+    background-color: #ff6400;
+    border-radius: 18px;
+    padding: 13px 35px;
+    border: 0;
+    color: white;
+    box-shadow: black;
+
+}
+.sec3img img{
+    width: 80vw;
+}
+.container4{
+    background-color:#FAFAFA;
+    margin:30px;
+    border-radius:10px;
+}
+.basliq{
+    margin:20px;
+    color: #ff6400;
+}
+
+
+.nagd a{
+    margin: 10px;
+    color:#969696;
+}
+.btnnagd{
+    border-radius: 21px;
+    padding:13px;
+    border: 2px solid #969696;
+    background-color: white;
+    color: #969696;
+}
+
+.numberr{
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+    padding: 6px
+
+}
+.input{
+    border: none;
+}
+.select{
+    border: none;
+}
+.container5{
+    background-color: #c8bcbc37;
+    margin:25;
+    border-radius: 15px;
+
+}
+.content5{
+    padding: 20px;
+    
+    
+}
+.content5 h2{
+    color:#ff6400;
+    padding: 15px;
+}
+.content5 p{
+    font-size: 13px;
+    padding: 15px;
+}
+.dahaetrafli{
+    border: none;
+    margin-left: 30px;
+    background-color: #ff6400;
+    border-radius: 15px;
+    padding: 13px 30px;
+    color:white;
+    margin-bottom:30px;
+    
+}
+.sec5img img{
+    width: 45vw;
+    margin-left:200px ;
+    height: 30vh;
+}
+.container66{
+    background-color: #FAFAFA;
+    border-radius:18px ;
+    margin: 15px;
+
+}
+.content6{
+    margin:15px;
+}
+.content6 h2{
+    margin:10px;
+    color: #ff6400;
+}
+.content6 p{
+    margin: 10px;
+}
+.iconapps{
+    display: flex;
+    gap:10px;
+    margin: 10px;
+    justify-content: center;
+
+}
+.apple{
+    border-radius: 20px;
+    padding:5px 7px;
+    border: none;
+    background-color: #ff6400;
+}
+.social{
+    border-radius: 20px;
+    padding:5px 7px;
+    border: none;
+}
+.text{
+    position: relative;
+}
+.son {
+    font-size: 12px;
+    text-align: center;
+    margin: 15px;
+}
+.img1 img{
+    width: 15vw;
+}
+
+.imgs img {
+    display: flex;
+    gap:10px;
+    flex-direction: row;
+    margin: 15px;
+}
+.imgs{
+    display: flex;
+    gap: 10px;
+
+}
+.imgposition{
+    display: flex;
+    margin:20px
+
+}
+@media only screen and (min-width: 768px){
+    
+    .logo1{
+        position: absolute;
+        margin-left:10px;
+    }
+    
+    .maincenter{
+        margin-top: 90px;
+        
+        
+        
+    }
+    .maincenter h2{
+        margin: 15px;
+        font-size: 35px;
+
+    }
+    .center img{
+        width: 40vw;
+        height: 60vh;
+        margin: 50px;
+        margin-bottom: 0px;
+        
+        
+    }
+    .center{
+        display: flex;
+        gap: 10px;
+    }
+    .card{
+        width: 20%;
+        height: 40vh;
+        
+    }
+    .cardcenter{
+        margin-top: 40px;
+        
+    }
+    .cardcenter h2 {
+        font-size: 20px;
+    }
+    
+    body{
+        margin:50px;
+    }
+    .ucardsec{
+        display: flex;
+    }
+    .content p{
+        width: 40vw;
+    }
+    .etrafli2{
+        width: 10vw;
+    }
+    .buttons{
+        display: flex;
+        margin: 15px;
+    }
+    .ucardcontent{
+        margin: 25px;
+    }
+    .ucardcontent h2{
+        font-size: 30px;
+    }
+    .ucardcontent p{
+        font-size: 15px;
+    }
+    .UBank-tetbiq{
+        display: flex;
+    }
+    .tetbiq{
+        margin: 10px;
+    }
+    .tetbiqcontent p{
+        font-size: 13px;
+    }
+    
+    .tetbiqcontent h2{
+        font-size: 30px;
+    }
+    .sec3img img{
+        width: 30vw;
+        height: 50vh;
+        top:0;
+    }
+    .btnhaqq{
+        margin: 15px;
+    }
+    .container5{
+        margin: 25px;
+    }
+    .sebekecontent{
+        display: flex;
+    }
+    .content5 p{
+        width: 20vw;
+
+    }
+    .sec5img img{
+        width: 25vw;
+        height: 50vh;
+        margin-top: 40px; 
+        padding: 20px;
+    
+    }
+    .content5 h2{
+        font-size: 30px;
+    }
+    .dahaetrafli{
+        margin: 15px;
+    }
+    .containerfix{
+        display: flex;
+    }
+    .container66{
+        padding:70px;
+    }
+    .content6 h2{
+        font-size: 30px;
+    }
+    .iconapps{
+        justify-content:end;
+    }
+    .imgs img{
+        width: 50px;
+    }
+    .imgs{
+        margin-left:800px;
+    }
+    hr{
+        margin: 20px;
+    }
+    .foot{
+        display: flex;        
+    }
+    .son h2{
+        width: 30vw;
+        height: 5vh;
+    }
+    .son p{
+        width: 40vw;
+        height: 5vh;
+    }
+    .soncontent{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .imgposition{
+        display: flex;
+        flex-direction: row;
+        right: 0px;
+        position: absolute;
+        margin-right: 40px;
+    }
+}
